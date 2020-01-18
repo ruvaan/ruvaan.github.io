@@ -595,7 +595,7 @@ img {
   position: relative;
   z-index: 99;
   width: 100%;
-  height: 900px;
+  height: 950px; /* <-- 900 */
   background-color: #ffffff;
   overflow: hidden; }
   .single-slide .slide-bg-img {
