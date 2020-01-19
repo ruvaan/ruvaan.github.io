@@ -1278,7 +1278,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(104, 139, 254, 0.5); }
+    background-color: rgba(104, 139, 254, 0); }
   .single-service-cata:hover::after {
     background-color: rgba(255, 121, 2, 0.9); }
   .single-service-cata a {
@@ -1730,6 +1730,8 @@ img {
   .single-icons span {
     display: block;
     color: #ffffff; }
+
+/* modifications */
 
 /* ====== The End ====== */
 
