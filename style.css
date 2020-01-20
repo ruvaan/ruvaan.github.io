@@ -595,7 +595,7 @@ img {
   position: relative;
   z-index: 99;
   width: 100%;
-  height: 950px; /* <-- 900 */
+  height: 1000px; /* <-- 900 */
   background-color: #ffffff;
   overflow: hidden; }
   .single-slide .slide-bg-img {
@@ -1733,6 +1733,18 @@ img {
 
 /* modifications */
 
+#ink
+{
+  display: inline;
+  background-image: url("img/bg-img/inkpot1.png");
+  background-repeat: no-repeat;
+}
+
+#test
+{
+  display: block;
+  padding: 0px auto;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
