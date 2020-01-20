@@ -186,3 +186,32 @@
     }
 
 })(jQuery);
+
+(function ($){
+  $.fn.counti = function() {
+    const $this = $(this),
+    numberFrom = parseInt(0),
+    numberTo = parseInt(500000),
+    delta = numberTo - numberFrom,
+    deltaPositive = delta > 0 ? 1 : 0,
+    changeTime = .1;
+    
+    let currentNumber = numberFrom,
+    value = 111;
+    var interval1;
+    const changeNumber = () => {
+      currentNumber += value;
+      //checks if currentNumber reached numberTo
+      (deltaPositive && currentNumber >= numberTo) || (!deltaPositive &&currentNumber<= numberTo) ? this.text("Unlimited") : this.text(parseInt(currentNumber));
+      currentNumber >= numberTo ? clearInterval(interval1) : currentNumber;  
+    }
+    
+    interval1 = setInterval(changeNumber,changeTime);
+  }
+}(jQuery));
+
+$(document).ready(function(){
+
+  $('.count-up').counti();
+
+});
