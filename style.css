@@ -630,6 +630,45 @@ img {
       @media only screen and (max-width: 767px) {
         .single-slide .welcome-text h2 {
           font-size: 24px; } }
+
+      .single-slide .welcome-text h3 {
+        font-size: 72px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-transform: uppercase; }
+        .single-slide .welcome-text h3 span {
+          color: #ffffff;
+          font-weight: 300; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .single-slide .welcome-text h3 {
+            font-size: 48px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .single-slide .welcome-text h3 {
+            font-size: 42px; } }
+        @media only screen and (max-width: 767px) {
+          .single-slide .welcome-text h3 {
+            font-size: 24px; } }
+
+        .single-slide .welcome-text h1 {
+          font-size: 112px;
+          color: #ffffff;
+          font-weight: 500;
+          margin-bottom: 10px;
+          text-transform: uppercase; }
+          .single-slide .welcome-text h1 span {
+            color: #ffffff;
+            font-weight: 300; }
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .single-slide .welcome-text h1 {
+              font-size: 72px; } }
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .single-slide .welcome-text h1 {
+              font-size: 63px; } }
+          @media only screen and (max-width: 767px) {
+            .single-slide .welcome-text h1 {
+              font-size: 36px; } }
+
     .single-slide .welcome-text h4 {
       font-size: 24px;
       font-weight: 400;
@@ -1751,6 +1790,32 @@ img {
 .hindi
 {
   font-family: 'Tillana', cursive;
+}
+
+.carter
+{
+  font-family: 'Carter One', cursive;
+}
+
+.brush
+{
+  font-family: 'Flavors', cursive;
+}
+
+/* colors */
+.color1
+{
+  color: #DA611D;
+}
+
+.color2
+{
+  color: #0F4880;
+}
+
+.color3
+{
+  color: #ffffff;
 }
 
 /* ====== The End ====== */
