@@ -1731,20 +1731,23 @@ img {
     display: block;
     color: #ffffff; }
 
-/* modifications */
+/* fonts */
 
-#ink
+.Bubblegum
 {
-  display: inline;
-  background-image: url("img/bg-img/inkpot1.png");
-  background-repeat: no-repeat;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
-#test
+.kalam
 {
-  display: block;
-  padding: 0px auto;
+  font-family: 'Kalam', cursive;
 }
+
+.marker
+{
+  font-family: 'Permanent Marker', cursive;
+}
+
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
