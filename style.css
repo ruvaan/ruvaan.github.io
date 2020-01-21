@@ -1554,8 +1554,8 @@ img {
     max-width: 32px;
     width: 32px;
     height: 32px;
-    border-radius: 50%;
-    border: 2px solid #969696;
+    /* border-radius: 50%; */
+    /* border: 2px solid #969696; */
     color: #688bfe;
     text-align: center;
     line-height: 28px;
@@ -1820,6 +1820,11 @@ img {
   color: #ffffff;
 }
 
+/* utilities */
+.inline
+{
+  display: inline;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */

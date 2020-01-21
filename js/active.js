@@ -191,7 +191,7 @@
   $.fn.counti = function() {
     const $this = $(this),
     numberFrom = parseInt(0),
-    numberTo = parseInt(600000),
+    numberTo = parseInt(650000),
     delta = numberTo - numberFrom,
     deltaPositive = delta > 0 ? 1 : 0,
     changeTime = .1;
