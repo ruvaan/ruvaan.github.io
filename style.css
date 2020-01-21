@@ -791,7 +791,7 @@ img {
   .pixel-projects-menu .btn {
     padding: 10px 20px;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: capitalize;
     font-weight: 500;
     color: #969696;
@@ -840,7 +840,7 @@ img {
       height: 50px;
       border-radius: 50%;
       border: 2px solid #ffffff;
-      font-size: 20px;
+      font-size: 40px;
       margin-bottom: 30px;
       color: #ffffff;
       line-height: 46px;
@@ -849,18 +849,20 @@ img {
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
-    .single_gallery_item .hover-content h4 {
+    .single_gallery_item .hover-content h2 {
       margin-bottom: 0;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 40px;
       color: #ffffff; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .single_gallery_item .hover-content h4 {
-          font-size: 20px; } }
+        .single_gallery_item .hover-content h2 {
+          font-size: 40px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .single_gallery_item .hover-content h4 {
-          font-size: 16px; } }
+        .single_gallery_item .hover-content h2 {
+          font-size: 32px; } }
       @media only screen and (max-width: 767px) {
-        .single_gallery_item .hover-content h4 {
-          font-size: 16px; } }
+        .single_gallery_item .hover-content h2 {
+          font-size: 32px; } }
   .single_gallery_item:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
