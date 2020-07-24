@@ -2,7 +2,7 @@
 > The lit fest of IIT Mandi
 `#Lafzon_ka_Karwan`
 
-To see this website [`click here`](https://ruvaan.github.io/)  
+To see this website [`click here`](http://ruvaan.co.in/)  
 follow us at 
 [`facebook`](https://www.facebook.com/ruvaaniitmandi/) and 
 [`instagram`](https://www.instagram.com/ruvaaniit/)
